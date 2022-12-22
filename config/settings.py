@@ -150,3 +150,6 @@ EMAIL_USE_TLS = True """
 # The email you'll be sending emails from
 DEFAULT_FROM_EMAIL = env('FROM_EMAIL', default='noreply@gmail.com')
 LOGIN_REDIRECT_URL = 'success'
+
+CSRF_TRUSTED_ORIGINS =['https://email-verification-production.up.railway.app',]
+
